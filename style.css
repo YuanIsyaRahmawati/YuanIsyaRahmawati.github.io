@@ -1,0 +1,290 @@
+header {
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+}
+
+.navbar {
+	padding: 20px 0;
+}
+
+.navbar-brand {
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #262626;
+}
+
+.nav-item {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item .active .nav-link {
+	background: #262626;
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+	color: #262626;
+	padding: 5px 15px;
+}
+
+.banner {
+	position: relative;
+	background: url(bgi.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	padding: 250px 0 200px;
+}
+
+.banner h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 2.8em;
+	font-weight: 1000;	
+	color: #262626;
+	text-transform: uppercase;
+}
+
+.banner p {
+	margin: 1em 0 0;
+	padding: 0;
+	font-size: 1.2em;
+	line-height: 1.5em;	
+	color: #262626;
+}
+
+.btnD1 {
+	display: inline-block;
+	margin: 1em 0 0;
+	background: #ff2670;
+	color: #fff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border: none;
+	font-weight: 800;
+}
+
+.btnD1:hover {
+	color: #fff;
+	text-decoration: none; 
+}
+
+.navbar-light .navbar-toggler {
+	border: none;
+	color: #fff;
+	border: 2px solid #7f7f7f;
+	border-radius: 0;
+	outline: none;
+}
+
+.navbar-collapse {
+	background: #fff;
+}
+
+@media (max-width: 768px) {
+
+	.banner {
+	padding: 200px 0;
+	}
+
+	.banner h2 {
+		font-size: 1.8em;
+	}
+
+}
+
+.btn {
+	display: inline-block;
+	margin: 1em 0 0;
+	background: #008000;
+	color: #fff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border: none;
+	font-weight: 800;
+}
+
+.container {
+	margin-top: 8%;
+}
+
+.inner {
+	overflow: hidden;
+}
+
+.inner img {
+	transition: all 1.5s ease;
+}
+
+.inner:hover img {
+	transform: scale(1.5);
+}
+
+#footer {
+	background: #00482a;
+	padding: 0 0 30px 0;
+	color: #eee;
+	font-size: 14px;
+}
+#footer .footer-top {
+	background: #004a99;
+	padding: 60px 0 30px 0;
+}
+#footer .footer-top .footer-info{
+	margin-bottom: 30px;
+}
+#footer .footer-top .footer-info h3 {
+	font-size: 34px;
+	margin: 0 0 20px 0;
+	padding:2px 0 2px 0;
+	line-height: 1;
+	font-family: "montserat", sans-serif;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+#footer .footer-top .footer-info p {
+	font-size: 13px;
+	line-height: 24px;
+	margin-bottom: 0;
+	font-family: "montserat", sans-serif;
+	color: #ecf5ff;
+}
+
+#footer .footer-top .social-link a {
+	font-size: 18px;
+	display: inline-block;
+	background: #007bff;
+	color: #fff;
+	line-height: 1;
+	padding: 8px 0;
+	margin-right: 4px;
+	border-radius: 50px;
+	text-align: 50px;
+	width:36px;
+	height: 36px;
+	transition: 0.3s;
+}
+
+#footer .footer-top .social-link a:hover {
+	background: #0067d5;
+	color: #fff;
+}
+
+#footer .footer-top h4 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	padding-bottom: 10px;
+
+}
+
+#footer .footer-top .footer-links {
+	margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+	padding: 8px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+	padding-top:0;
+}
+
+#footer .footer-top .footer-links ul a {
+	color: #ecf5ff;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+	color: #74b5fc;
+}
+
+#footer .footer-top .footer-contact {
+	margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p{
+	line-height: : 26px;
+}
+
+#footer .footer-top .footer-newsletter {
+	margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+	border: 0;
+	padding: 6px 8px;
+	width: 65%;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+	background: #007bff;
+	border: 0;
+	width: 35%;
+	padding: 6px 0;
+	text-align: center;
+	color: #fff;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+	background: #0062cc;
+}
+
+#footer .copyright {
+	text-align: center;
+	padding-top: 30px;
+}
+
+#footer .credits {
+	text-align: center;
+	font-size: 13px;
+	color: #f1f7ff;
+}
+
+#footer .credits a {
+	color: #bfddfe;
+}
+
+#footer .credits a:hover {
+	color: #f1f7ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
